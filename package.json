@@ -1,0 +1,14 @@
+{
+  "name": "manual-file-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generate and validate fixed-width test files from the Operations Excel template.",
+  "main": "generate.js",
+  "scripts": {
+    "generate": "node generate.js",
+    "test": "node generate.js --self-test"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
